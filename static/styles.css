@@ -14,30 +14,10 @@ body
     left: 0;
     z-index: 0;
   }
-  
-  #overlay {
-    position: relative;
-    padding: 50px;
-  }
-  .gallery-text{
-    width: 100px;
-	height: 100px;
-  
-  
-  position: absolute;
+.gallery-text{
+   position: absolute;
   top: 50%;
-  left: 40%;
-  
-  transform: translate(-50%, -50%);
-}
-
-.gallery-text:hover{
-    opacity: 1;      
-}
-
-.gallery-text h1{
-    color: white;
-    display: inline-table;
-   vertical-align:middle;
-   line-height:100%;            
+  left: 50%;
+ transform: translate(-50%, -50%);
+  color: #ffffff;
 }

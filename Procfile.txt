@@ -1,0 +1,1 @@
+web: gunicorn mehak.wsgi --log-file -
